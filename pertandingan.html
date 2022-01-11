@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript DOM</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap/style.css" />
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+          <!-- tampilkan konten disini -->
+          <div id="judulbola"><h1>Hitung Hasil Pertandingan</h1></div>
+          <form action="#">
+            <div class="col">
+              <div class="col-md-2">
+                <label for="tima" class="form-label">Skor Team A</label>
+                <input type="text" name="tima" id="tima" class="form-control">
+              </div>
+              <div class="col-md-2">
+                <label for="timb" class="form-label">Skor Team B</label>
+                <input type="text" name="timb" id="timb" class="form-control">
+              </div>
+              <div class="col-md-2">
+                <label for="waktu" class="form-label">Waktu Pertandingan</label>
+                <select type="waktu" name="waktu" id="waktu" class="form-select">
+                <!-- <option value="0">0</option>
+                <option value="15">15</option>
+                <option value="30">30</option>
+                <option value="45">45</option>
+                <option value="60">60</option>
+                <option value="75">75</option>
+                <option value="90">90</option>
+                <option value="105">105</option>
+                <option value="120">120</option>
+                <option value="135">135</option>
+                <option value="150">150</option> -->
+                </select>
+              </div>
+            </div>
+            <div class="row pt-2">
+              <div class="col-md-5">
+                <button type="button" id="btn_hasil" class="btn btn-warning form-control" onclick="ing()">Hasil Pertandingan</button>
+              </div>
+            </div>
+          </form>
+          <div class="bg-warning mt-3 text-md-center" id="hper"></div>
+        </main>
+      </div>
+    </div>
+          <!-- link javascript -->    
+   <script src="javascript/login.js"></script>
+   <script src="javascript/pertandingan.js"></script>
+  </body>
+</html>
